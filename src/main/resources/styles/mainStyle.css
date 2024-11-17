@@ -1,0 +1,86 @@
+.stack-pane {
+    -fx-pref-width: 850.0;
+    -fx-pref-height: 600.0;
+}
+
+#backgroundImage {
+    -fx-fit-height: 600;
+    -fx-fit-width: 850;
+}
+
+#titleLabel {
+    -fx-font-size: 28px;
+    -fx-text-fill: #b22222;
+    -fx-font-weight: bold;
+    -fx-layout-x: 350;
+    -fx-layout-y: 30;
+}
+
+#peliculaTabla {
+    -fx-background-color: rgba(178, 34, 34, 0.5);
+    -fx-border-color: #8b0000;
+    -fx-border-width: 1px;
+}
+
+    #peliculaTabla .table-column-header {
+        -fx-text-fill: white;
+        -fx-font-size: 16px;
+        -fx-border-color: black;
+        -fx-border-width: 0 1px 0 0;
+    }
+
+    #peliculaTabla .table-column {
+        -fx-font-size: 16px;
+        -fx-text-fill: white;
+        -fx-background-color: rgba(139, 0, 0, 0.8);
+        -fx-alignment: center;
+        -fx-border-color: black;
+        -fx-border-width: 0 1px 0 0;
+    }
+
+    #peliculaTabla .table-cell {
+        -fx-border-color: black;
+        -fx-border-width: 0 1px 0 0;
+    }
+
+
+
+    .button {
+        -fx-font-size: 16px;
+        -fx-text-fill: white;
+        -fx-background-color: linear-gradient(#8b0000, #b22222);
+    }
+
+    #btnCerrarSesion {
+        -fx-layout-x: 620.0;
+        -fx-layout-y: 70.0;
+        -fx-font-size: 16px;
+        -fx-text-fill: white;
+        -fx-background-color: linear-gradient(#8b0000, #b22222);
+    }
+
+    #btnCerrarSesion:pressed {
+        -fx-background-color: darkred;
+    }
+
+    #usernameLabel {
+        -fx-font-size: 16px;
+        -fx-text-fill: white;
+        -fx-layout-x: 120.0;
+        -fx-layout-y: 75.0;
+    }
+
+    #userIcon {
+        -fx-fit-height: 40;
+        -fx-fit-width: 40;
+        -fx-layout-x: 70.0;
+        -fx-layout-y: 70.0;
+    }
+
+    #imgLogout {
+        -fx-fit-height: 40.0;
+        -fx-fit-width: 50.0;
+        -fx-layout-x: 730.0;
+        -fx-layout-y: 70.0;
+    }
+

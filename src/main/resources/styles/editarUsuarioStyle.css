@@ -1,0 +1,62 @@
+.anchor-pane {
+    -fx-background-color: transparent;
+}
+
+.label-title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #b22222;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field, .password-field {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-color: #8b0000;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.check-box {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: transparent;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(#8b0000, #b22222);
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#b22222, #8b0000);
+}
+
+.button:pressed {
+    -fx-background-color: darkred;
+}
+
+.hbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+.vbox {
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+}
+

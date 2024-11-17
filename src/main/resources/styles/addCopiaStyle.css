@@ -1,0 +1,90 @@
+/* Archivo CSS: addCopiaStyle.css */
+
+.stack-pane {
+    -fx-pref-width: 850.0;
+    -fx-pref-height: 600.0;
+    -fx-background-color: #2d2d2d;
+}
+
+#imagenFondo {
+    -fx-fit-height: 600;
+    -fx-fit-width: 800;
+}
+
+#tituloLbl {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 10px;
+}
+
+
+.combo-box {
+    -fx-background-color: linear-gradient(#8b0000, #b22222);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #bbbbbb;
+    -fx-background-radius: 5px;
+    -fx-border-color: #8b0000;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 16px;
+}
+
+.combo-box .combo-box-text {
+    -fx-text-fill: black; /* Texto del combo box en negro */
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: black; /* Texto de las opciones del combo box en negro */
+}
+
+.combo-box .combo-box-arrow {
+    -fx-fill: white;
+}
+
+.text-field {
+    -fx-background-color: linear-gradient(#8b0000, #b22222);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #bbbbbb;
+    -fx-background-radius: 5px;
+    -fx-border-color: #8b0000;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 16px;
+}
+
+.button, .primary-button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#8b0000, #b22222);
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-weight: bold;
+}
+
+.button:hover, .primary-button:hover {
+    -fx-background-color: linear-gradient(#a52a2a, #b22222);
+}
+
+.button:pressed, .primary-button:pressed {
+    -fx-background-color: darkred;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#btnAgregarCopia, #btnVolver {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#8b0000, #b22222);
+}
+
+#btnAgregarCopia:hover, #btnVolver:hover {
+    -fx-background-color: linear-gradient(#a52a2a, #b22222);
+}
+
+#btnAgregarCopia:pressed, #btnVolver:pressed {
+    -fx-background-color: darkred;
+}

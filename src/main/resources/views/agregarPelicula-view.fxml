@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.conjunto.retoconjuntohibernatejavafx.controllers.AgregarPeliculaController">
+   <children>
+      <ImageView fitHeight="479.0" fitWidth="864.0" pickOnBounds="true" preserveRatio="true">
+       <image>
+           <Image url="@../drawable/fondoAddCopia.jpg" />
+       </image>
+       </ImageView>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/addPelicula.css">
+      
+          <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="50" AnchorPane.leftAnchor="50" AnchorPane.rightAnchor="50" AnchorPane.topAnchor="50">
+              <Label fx:id="agrePeli" styleClass="label" text="Agregar nueva película" />
+      
+              <TextField fx:id="tituloTextField" promptText="Título" styleClass="text-field" />
+      
+              <TextField fx:id="generoTextField" promptText="Género" styleClass="combo-box">
+        </TextField>
+      
+              <TextField fx:id="anhoTextField" promptText="Año" styleClass="text-field" />
+
+              <TextField fx:id="directorTextField" promptText="Director" styleClass="text-field" />
+      
+              <TextField fx:id="descripcionTextField" promptText="Descripción" styleClass="text-field" />
+      
+              <HBox prefHeight="14.0" prefWidth="617.0" spacing="20.0">
+                  <Button fx:id="btnAgregarPelicula" alignment="CENTER" graphicTextGap="1.0" onAction="#agregarPelicula" styleClass="button" text="Agregar película" />
+                  <Button fx:id="btnVolver" onAction="#volver" styleClass="button" text="Volver" />
+              </HBox>
+          </VBox>
+      
+      </AnchorPane>
+   </children>
+</StackPane>
