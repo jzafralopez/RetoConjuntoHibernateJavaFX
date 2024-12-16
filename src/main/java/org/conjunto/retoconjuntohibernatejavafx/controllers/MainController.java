@@ -35,6 +35,8 @@ public class MainController implements Initializable {
     @FXML
     private Button btnCerrarSesion;
     @FXML
+    private Button btnInformes;
+    @FXML
     private ImageView imgLogout;
     @FXML
     private TableView<Copia> peliculaTabla;
@@ -176,6 +178,20 @@ public class MainController implements Initializable {
             Parent root = loader.load();
 
             Stage stage = (Stage) lblNombreUsuario.getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void realizarInformes() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/informes-view.fxml"));
+            Parent root = loader.load();
+
+            Stage stage = (Stage) btnInformes.getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
 

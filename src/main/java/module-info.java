@@ -6,6 +6,7 @@ module org.conjunto.retoconjuntohibernatejavafx {
     requires jakarta.persistence;
     requires java.desktop;
     requires java.naming;
+    requires net.sf.jasperreports.core;
     exports org.conjunto.retoconjuntohibernatejavafx;
     exports org.conjunto.retoconjuntohibernatejavafx.controllers to javafx.fxml;
 

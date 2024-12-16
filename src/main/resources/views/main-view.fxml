@@ -63,6 +63,7 @@
         <ImageView fx:id="userIcon" fitHeight="40" fitWidth="40" layoutX="57.0" layoutY="50.0">
             <Image url="@../drawable/iconUser.png" />
         </ImageView>
+      <Button fx:id="btnInformes" layoutX="354.0" layoutY="547.0" mnemonicParsing="false" onAction="#realizarInformes" prefHeight="38.0" prefWidth="143.0" text="Realizar informes" />
 
     </AnchorPane>
 </StackPane>

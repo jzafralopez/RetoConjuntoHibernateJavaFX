@@ -1,0 +1,27 @@
+.anchor-pane {
+    -fx-pref-width: 600.0;
+    -fx-pref-height: 400.0;
+    -fx-background-color: #2d2d2d;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#8b0000, #b22222);
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#a52a2a, #b22222);
+}
+
+.button:pressed {
+    -fx-background-color: darkred;
+}
+
+.vbox {
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}

@@ -85,6 +85,7 @@ public class EditarCopiaController implements Initializable {
         }
     }
 
+
     @FXML
     public void cancelarEdicion() {
         try {

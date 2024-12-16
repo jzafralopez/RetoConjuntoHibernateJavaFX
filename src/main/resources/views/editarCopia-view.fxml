@@ -22,17 +22,17 @@
 
         <Label fx:id="titleLabel" styleClass="titleLabel" text="Edite su copia" />
 
-        <HBox alignment="CENTER" spacing="10" prefWidth="400.0">
+        <HBox alignment="CENTER" prefWidth="400.0" spacing="10">
             <Label text="Estado:" />
             <ComboBox fx:id="estadoComboBox" prefHeight="31.0" prefWidth="250.0" promptText="Seleccione el estado" />
         </HBox>
 
-        <HBox alignment="CENTER" spacing="10" prefWidth="400.0">
+        <HBox alignment="CENTER" prefWidth="400.0" spacing="10">
             <Label text="Soporte:" />
             <ComboBox fx:id="soporteComboBox" prefHeight="31.0" prefWidth="250.0" promptText="Seleccione el soporte" />
         </HBox>
 
-        <HBox alignment="CENTER" spacing="10" prefWidth="400.0">
+        <HBox alignment="CENTER" prefWidth="400.0" spacing="10">
             <Label text="Cantidad:" />
             <TextField fx:id="cantidadTextField" prefHeight="31.0" prefWidth="250.0" promptText="Ingrese la cantidad" />
         </HBox>
@@ -43,4 +43,5 @@
         <Button fx:id="btnGuardarCambios" onAction="#guardarCambios" styleClass="button" text="Guardar Cambios" />
         <Button fx:id="btnVolver" onAction="#cancelarEdicion" styleClass="button" text="Volver" />
     </HBox>
+   <Button fx:id="btnInformeCopia" layoutX="369.0" layoutY="330.0" mnemonicParsing="false" onAction="#mostrarInformePeliculaConcreta" prefHeight="36.0" prefWidth="130.0" text="Informe Copia" />
 </AnchorPane>

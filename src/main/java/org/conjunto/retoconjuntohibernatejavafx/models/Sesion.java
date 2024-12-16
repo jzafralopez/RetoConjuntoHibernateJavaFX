@@ -5,6 +5,7 @@ package org.conjunto.retoconjuntohibernatejavafx.models;
 
 public class Sesion {
     private static Usuario usuarioActual;
+    private static Copia copiaActual;
 
     public static Usuario getUsuarioActual() {
         return usuarioActual;
@@ -14,7 +15,19 @@ public class Sesion {
         usuarioActual = usuario;
     }
 
+    public static Copia getCopiaActual() {
+        return copiaActual;
+    }
+
     public static String getNombreUsuario() {
         return usuarioActual.getNombre();
+    }
+
+    public static int getIdUsuario() {
+        return usuarioActual.getId();
+    }
+
+    public static int getIdCopia() {
+        return copiaActual.getId();
     }
 }
